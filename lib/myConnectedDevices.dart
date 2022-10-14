@@ -80,7 +80,7 @@ class _MyConnectedDevicesState extends State<MyConnectedDevices> {
                         BoxShadow(
                           color: Color.fromARGB(15, 0, 0, 0),
                           blurRadius: 9,
-                          offset: Offset(-10, 8),
+                          offset: Offset(-7, 5),
                         )
                       ],
                     ),
@@ -126,7 +126,7 @@ class _MyConnectedDevicesState extends State<MyConnectedDevices> {
                       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                       shape: const CircleBorder(),
                       padding: const EdgeInsets.all(8),
-                      shadowColor: Color.fromARGB(150, 0, 0, 0),
+                      shadowColor: const Color.fromARGB(150, 0, 0, 0),
                     ),
                     child: const Icon(
                       Icons.local_dining,
@@ -143,7 +143,7 @@ class _MyConnectedDevicesState extends State<MyConnectedDevices> {
                       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                       shape: const CircleBorder(),
                       padding: const EdgeInsets.all(8),
-                      shadowColor: Color.fromARGB(150, 0, 0, 0),
+                      shadowColor: const Color.fromARGB(150, 0, 0, 0),
                     ),
                     child: const Icon(
                       Icons.line_weight,

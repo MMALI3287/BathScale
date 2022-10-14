@@ -57,9 +57,9 @@ class _DeleteAccountState extends State<DeleteAccount> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Color.fromARGB(64, 0, 0, 0),
-                        blurRadius: 6,
-                        offset: Offset(0, 2),
+                        color: Color.fromARGB(15, 0, 0, 0),
+                        blurRadius: 9,
+                        offset: Offset(-10, 8),
                       )
                     ],
                   ),
@@ -98,7 +98,7 @@ class _DeleteAccountState extends State<DeleteAccount> {
                       top: 15,
                       bottom: 15,
                     ),
-                    //shadowColor: Color.fromARGB(79, 179, 179, 179),
+                    shadowColor: const Color.fromARGB(150, 0, 0, 0),
                   ),
                   child: const Text(
                     'Delete Account',
@@ -120,11 +120,10 @@ class _DeleteAccountState extends State<DeleteAccount> {
                     backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                     shape: const CircleBorder(),
                     padding: const EdgeInsets.all(55),
-                    //shadowColor: Color.fromARGB(79, 179, 179, 179),
+                    shadowColor: const Color.fromARGB(150, 0, 0, 0),
                   ),
                   child: const Icon(
                     CupertinoIcons.delete,
-                    // Icons.add,
                     color: Color(0xFF455274),
                   ),
                 ),

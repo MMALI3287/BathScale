@@ -39,7 +39,7 @@ class _AccountState extends State<Account> {
                             const Color.fromARGB(255, 255, 255, 255),
                         shape: const CircleBorder(),
                         padding: const EdgeInsets.all(40),
-                        //shadowColor: Color.fromARGB(79, 179, 179, 179),
+                        shadowColor: const Color.fromARGB(200, 241, 241, 245),
                       ),
                       child: const Icon(
                         CupertinoIcons.person_crop_circle,
@@ -90,9 +90,9 @@ Widget buildEmail() {
             ),
             boxShadow: [
               BoxShadow(
-                color: Color.fromARGB(64, 0, 0, 0),
-                blurRadius: 6,
-                offset: Offset(0, 3),
+                color: Color.fromARGB(10, 0, 0, 0),
+                blurRadius: 8,
+                offset: Offset(-9, 7),
               )
             ],
           ),
@@ -124,7 +124,7 @@ Widget buildEmail() {
                       child: TextField(
                         decoration: InputDecoration(
                           border: InputBorder.none,
-                          hintText: '____________________________',
+                          hintText: '___________________________',
                           hintStyle: GoogleFonts.openSans(
                             textStyle: const TextStyle(
                               fontSize: 16,
@@ -134,6 +134,13 @@ Widget buildEmail() {
                         ),
                       ),
                     ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      top: 20,
+                    ),
+                    child:
+                        Image(image: Image.asset('images/VectorPen.png').image),
                   ),
                 ],
               ),
@@ -188,7 +195,7 @@ Widget buildEmail() {
             backgroundColor: const Color.fromARGB(255, 255, 255, 255),
             shape: const CircleBorder(),
             padding: const EdgeInsets.all(8),
-            shadowColor: const Color.fromARGB(255, 0, 0, 0),
+            shadowColor: const Color.fromARGB(200, 241, 241, 245),
           ),
           child: const Icon(
             Icons.email,
@@ -205,7 +212,7 @@ Widget buildEmail() {
             backgroundColor: const Color.fromARGB(255, 255, 255, 255),
             shape: const CircleBorder(),
             padding: const EdgeInsets.all(8),
-            shadowColor: const Color.fromARGB(255, 0, 0, 0),
+            shadowColor: const Color.fromARGB(200, 241, 241, 245),
           ),
           child: const Icon(
             Icons.lock,
@@ -222,7 +229,7 @@ Widget buildEmail() {
             backgroundColor: const Color.fromARGB(255, 255, 255, 255),
             shape: const CircleBorder(),
             padding: const EdgeInsets.all(10),
-            shadowColor: const Color.fromARGB(255, 0, 0, 0),
+            shadowColor: const Color.fromARGB(200, 241, 241, 245),
           ),
           child: const Icon(
             Icons.add,

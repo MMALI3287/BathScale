@@ -64,9 +64,9 @@ class _ReminderState extends State<Reminder> {
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: Color.fromARGB(64, 0, 0, 0),
-                            blurRadius: 6,
-                            offset: Offset(0, 2),
+                            color: Color.fromARGB(15, 0, 0, 0),
+                            blurRadius: 9,
+                            offset: Offset(-10, 8),
                           )
                         ],
                       ),
@@ -132,7 +132,7 @@ class _ReminderState extends State<Reminder> {
                             const Color.fromARGB(255, 255, 255, 255),
                         shape: const CircleBorder(),
                         padding: const EdgeInsets.all(8),
-                        // shadowColor: Color(0x0AFFFFFF),
+                        shadowColor: const Color.fromARGB(150, 0, 0, 0),
                       ),
                       child: const Icon(
                         CupertinoIcons.clock,
@@ -150,7 +150,7 @@ class _ReminderState extends State<Reminder> {
                             const Color.fromARGB(255, 255, 255, 255),
                         shape: const CircleBorder(),
                         padding: const EdgeInsets.all(8),
-                        //shadowColor: Color.fromARGB(79, 179, 179, 179),
+                        shadowColor: const Color.fromARGB(150, 0, 0, 0),
                       ),
                       child: const Icon(
                         CupertinoIcons.clock,
@@ -164,10 +164,11 @@ class _ReminderState extends State<Reminder> {
                     child: ElevatedButton(
                       onPressed: () => {},
                       style: ElevatedButton.styleFrom(
-                        // primary: Color.fromARGB(255, 255, 255, 255),
+                        backgroundColor:
+                            const Color.fromARGB(255, 255, 255, 255),
                         shape: const CircleBorder(),
                         padding: const EdgeInsets.all(8),
-                        //shadowColor: Color.fromARGB(79, 179, 179, 179),
+                        shadowColor: const Color.fromARGB(200, 0, 0, 0),
                       ),
                       child: const Icon(
                         // CupertinoIcons.add,

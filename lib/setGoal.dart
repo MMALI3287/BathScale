@@ -93,9 +93,9 @@ class _SetGoalState extends State<SetGoal> {
                             ),
                             boxShadow: [
                               BoxShadow(
-                                color: Color.fromARGB(64, 0, 0, 0),
-                                blurRadius: 6,
-                                offset: Offset(0, 3),
+                                color: Color.fromARGB(15, 0, 0, 0),
+                                blurRadius: 9,
+                                offset: Offset(-10, 8),
                               )
                             ],
                           ),
@@ -123,7 +123,7 @@ class _SetGoalState extends State<SetGoal> {
                                     shape: const CircleBorder(),
                                     padding: const EdgeInsets.all(10),
                                     shadowColor:
-                                        const Color.fromARGB(255, 0, 0, 0),
+                                        const Color.fromARGB(200, 0, 0, 0),
                                   ),
                                   child: const Icon(
                                     Icons.add,

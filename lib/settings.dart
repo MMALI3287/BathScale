@@ -3,9 +3,11 @@
 import 'package:day_night_switcher/day_night_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:wighttrial/account.dart';
 import 'package:wighttrial/changeUnit.dart';
 import 'package:wighttrial/contact.dart';
 import 'package:wighttrial/deleteAccount.dart';
+import 'package:wighttrial/goals.dart';
 import 'package:wighttrial/languages.dart';
 import 'package:wighttrial/myConnectedDevices.dart';
 import 'package:wighttrial/reminder.dart';
@@ -630,7 +632,7 @@ class _settingsState extends State<settings> {
                       onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const SetGoal(),
+                          builder: (context) => const Goals(),
                         ),
                       ),
                       child: const Image(

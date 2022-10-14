@@ -63,9 +63,9 @@ class _LanguagesState extends State<Languages> {
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: Color.fromARGB(64, 0, 0, 0),
-                            blurRadius: 6,
-                            offset: Offset(0, 2),
+                            color: Color.fromARGB(15, 0, 0, 0),
+                            blurRadius: 9,
+                            offset: Offset(-10, 8),
                           )
                         ],
                       ),

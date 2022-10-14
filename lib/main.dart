@@ -19,8 +19,6 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // const Expanded(
-              //   child:
               const SizedBox(
                 height: 61,
                 width: 61,
@@ -28,7 +26,6 @@ class MyApp extends StatelessWidget {
                   image: AssetImage('images/logo.png'),
                 ),
               ),
-              // ),
               Text(
                 'BATH SCALE',
                 style: GoogleFonts.poppins(
